@@ -15,9 +15,6 @@ Minecraft Bedrock Edition向けの「隠しアイテム」に特化した外部�
 
 1. インベントリ上に「隠しアイテム」や「隠しブロック」を追加します。
 2. 新たに**別Edition**や**削除された**アイテムやブロックを再現して追加します。
-
-   ※再現アイテムはインベントリのカテゴリに再現アイテムであることが明記されています。(スポーンエッグは例外)
-
 3. 独自のコマンドを追加します。
    - **/getnbtitem**: NBT改変限定の隠しアイテムを追加します。
      * 構文: `/getnbtitem <"selector:string"> <nbtitem:string>`
@@ -33,10 +30,6 @@ Minecraft Bedrock Edition向けの「隠しアイテム」に特化した外部�
      * 構文: `/lore [set/clear] <string:string|option>`
    - **/name**: エンティティの名前を強制的に変更します。
      * 構文: `/name <entity:target> <string:string>`
-   - **/fire**: エンティティを強制的に燃やします。
-     * 構文: `/fire <player:target> <int:int>`
-   - **/heal**: エンティティのHPを変更します。
-     * 構文: `/heal <entity:target> <int:int>`
    - **/remove**: エンティティの存在を消します。
      * 構文: `/remove <entity:target>`
 
