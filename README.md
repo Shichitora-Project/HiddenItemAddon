@@ -45,7 +45,7 @@ Minecraft Bedrock Edition向けの「隠しアイテム」に特化した外部�
 
 # バージョン
 
-`Minecraft Bedrock Edition 26.50+`が必須です。BetaAPIも必須です。
+`Minecraft Bedrock Edition 26.50+`が必須です。
 
 ---
 
